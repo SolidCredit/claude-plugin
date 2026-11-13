@@ -1,0 +1,15 @@
+{
+  "name": "solid-credit",
+  "description": "The Solid Credit plugin for Claude.",
+  "owner": {
+    "name": "Solid Credit",
+    "url": "https://www.solidcredit.com/"
+  },
+  "plugins": [
+    {
+      "name": "solid-credit",
+      "source": "./",
+      "description": "Check your Equifax VantageScore 3.0 credit score, see what is on your credit reports, get a custom Credit Plan, and check your rent and bill reporting status and Solid Credit account."
+    }
+  ]
+}

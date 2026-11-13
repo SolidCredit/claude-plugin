@@ -1,0 +1,18 @@
+{
+  "name": "solid-credit",
+  "displayName": "Solid Credit",
+  "version": "0.1.0",
+  "description": "Check your Equifax VantageScore 3.0 credit score, see what is on your credit reports, get a custom Credit Plan, and check your rent and bill reporting status and Solid Credit account.",
+  "author": {
+    "name": "Solid Credit",
+    "url": "https://www.solidcredit.com/"
+  },
+  "homepage": "https://www.solidcredit.com/",
+  "repository": "https://github.com/SolidCredit/claude-plugin",
+  "keywords": ["credit", "credit score", "credit report", "personal finance"],
+  "icon": "./assets/solid-credit-icon.png",
+  "documentationUrl": "https://www.solidcredit.com/mcp",
+  "supportUrl": "https://www.solidcredit.com/support",
+  "privacyPolicyUrl": "https://www.solidcredit.com/privacy",
+  "termsOfServiceUrl": "https://www.solidcredit.com/terms"
+}

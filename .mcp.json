@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "solid-credit": {
+      "type": "http",
+      "url": "https://app.solidcredit.com/api/mcp"
+    }
+  }
+}
