@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.solidcredit/solid-credit",
+  "title": "Solid Credit",
+  "description": "Understand your credit scores, reports, and next steps in plain English. Read-only access.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.solidcredit.com/mcp",
+  "repository": {
+    "url": "https://github.com/SolidCredit/claude-plugin",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/SolidCredit/claude-plugin/main/assets/solid-credit-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.solidcredit.com/api/mcp"
+    }
+  ]
+}
