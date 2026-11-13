@@ -44,7 +44,8 @@ jobs:
       - name: Authenticate to MCP Registry
         env:
           MCP_PRIVATE_KEY: ${{ secrets.MCP_PRIVATE_KEY }}
-        run: ./mcp-publisher login dns --domain solidcredit.com
+        # mcp-publisher v1.8.9 reads the key only from this flag.
+        run: ./mcp-publisher login dns --domain solidcredit.com --private-key "$MCP_PRIVATE_KEY"
 
       - name: Publish server to MCP Registry
         run: ./mcp-publisher publish
