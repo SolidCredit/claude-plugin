@@ -9,6 +9,7 @@
   },
   "homepage": "https://www.solidcredit.com/",
   "repository": "https://github.com/SolidCredit/claude-plugin",
+  "license": "MIT",
   "keywords": ["credit", "credit score", "credit report", "personal finance"],
   "icon": "./assets/solid-credit-icon.png",
   "documentationUrl": "https://www.solidcredit.com/mcp",
